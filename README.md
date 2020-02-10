@@ -1,5 +1,4 @@
 # MediaPros
 
 ##Team
-
-2. JR Sia ([@rsiajr](http://github.com/rsiajr)) 
+2. [JR Sia] (http://github.com/rsiajr)
