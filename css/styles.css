@@ -1,0 +1,16 @@
+:root {
+    --humDarkBlue: #000033;
+    --humOrange: #CC9900;
+    --humLightBlue: #009BE0;
+    --humGreen: #B4C800;
+    --humPink: #DF4661;
+    --humYellow: #FEDB00;
+    --humPurple: #5C068C;
+    --humTeal: #0097A9;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
