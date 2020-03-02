@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap');
+:root {
+    --col-bg: #EDEBEB;
+    --col-bg-hd: #F8F8F8;
+    --col-humb-bl:  #00204A;
+    --col-humb-gld: #E2A900;
+    --col-humb-cy:  #00A1E9;
+    --col-txt: #4A4848;
+    --font-body: 'Roboto';
+    --animations: 0.3s;
+}
+
+body {
+    background-color: var(--col-bg);
+    font-family: var(--font-body);
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.header {
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    justify-content: space-between;
+    background-color: var(--col-bg-hd);
+}
+
+.header img {
+    padding: 0.7rem;
+    width: 25%;
+    height: auto;
+}
+.router {
+    display: flex;
+    padding: 3rem  2rem 1rem 0;
+    list-style: none;
+}
+
+.router a {
+    color: var(--col-txt);
+    text-decoration: none;
+    padding-right: 2.5rem;
+    font-size: 1.1rem;
+}
+
+.faculty {
+    font-size: 3rem;
+    text-align: center;
+    margin: 2.5rem auto;
+    font-family: "Roboto Condensed";
+}
+
+.program {
+    position: relative;
+    overflow: hidden;
+}
+
+.program-graphic {
+    background-color: rgba(0,32,74,0.5);
+    text-transform: uppercase;
+    font-size: 2rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.program-graphic:hover {
+    opacity: 1;
+}
+
+.program-graphic a {
+    color: white;
+    text-shadow: 0 0 0.5em #000;
+    text-decoration: none;
+    line-height: 1;
+    place-self: center;
+    text-align: center;
+    padding: 1em;
+}
+
+.program-3d {
+    background-color: rgba(226,169,0,0.5);
+    text-transform: uppercase;
+    font-size: 2rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.program-3d:hover {
+    opacity: 1;
+}
+
+.program-3d a {
+    color: white;
+    text-shadow: 0 0 0.5em #000;
+    text-decoration: none;
+    line-height: 1;
+    place-self: center;
+    text-align: center;
+    padding: 1em;
+}
+
+.program-web {
+    background-color: rgba(0,161,233,0.5);
+    text-transform: uppercase;
+    font-size: 2rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.program-web:hover {
+    opacity: 1;
+}
+
+.program-web a {
+    color: white;
+    text-shadow: 0 0 0.5em #000;
+    text-decoration: none;
+    line-height: 1;
+    place-self: center;
+    text-align: center;
+    padding: 1em;
+}
+
+.grad-show {
+    padding: 2rem 10rem;
+}
