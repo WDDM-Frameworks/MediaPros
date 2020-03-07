@@ -7,14 +7,17 @@ export default class WebDesignAndDevelopment extends Program{
     }
     
     getHeader(){
-        return `                    
+        return `  
+            <div class="prog-name">                   
             <h2>Web Design and Development</h2>
             <p>Credential:<strong>Certificate of Achievement</strong> | Program Code: WD911 | Length: 2 semesters | Program Starting Between: September 2020- August 2021</p>
+            </div>
         `
     }
 
     getMain(){
         return `
+            <article class="prog-descript">
             <p>If you describe yourself as creative, resourceful, detail-oriented and a problem solver, then Humber's Web Design and Development certificate program is for you. You will learn to critically analyze problems and apply best practices to plan,
                 design and build websites/applications. You will build sites and apps from the ground up using the most up-to-date techniques and fundamental technologies. You will also learn to tackle technical challenges by developing strong troubleshooting 
                 and problem solving skills. The solutions you create along your journey will be curated into a captivating portfolio website at the end of the program</p>
@@ -26,7 +29,7 @@ export default class WebDesignAndDevelopment extends Program{
                 in a practical, hands-on style of teaching. Opportunities to network with potential employers, alumni and other professionals will help you to build your own network of invaluable contacts to shape your future career.
 
                 This program is not eligible for Ontario Student Assistance Program (OSAP). It is eligible for Second Career Funding. Further details and how to apply are found at <a href="#">ontario.ca/page/second-career</a>.</p>
-
+                <article>
         `
     }
 }

@@ -8,24 +8,23 @@ export default class ProgramTemplate extends Page{
     getProgramTemplate(){
         return `
                 <section class="prog">
-                    <header class = "prog-header">
+                    <header class="prog-header">
                         ${this.getHeader()}
-                        <button>Print course information as pdf</button>
+                        <button class="prog-button">Print course information as pdf</button>
                     </header>
 
-                    <main>
+                    <main class="info-button">
                         ${this.getMain()}
-                        <button>More Information for this course</button>
+                        <button class="button">More Information for this course</button>
                     </main>
                     
                 </section>
 
-                <div>
+                <div class="info_main">
                     <!--General information security-->
-                    <p class="info_main">Every attempt is made to ensure that information contained on this website is current and accurate. Humber reserves the right to correct any error or omission, modify or cancel any course, program, fee, timetable or campus location at 
+                    <p><strong>Information: <strong>Every attempt is made to ensure that information contained on this website is current and accurate. Humber reserves the right to correct any error or omission, modify or cancel any course, program, fee, timetable or campus location at 
                         any time without prior notice or liability to users or any other Person.</p>
-
-                    <p class="info_main">On June 29, 2018, the Provincial Government of Ontario announced the renaming of the Ministry of Advanced Education and Skills Development (MAESD) to the Ministry of Training, Colleges and Universities (MTCU). Both names may appear on this website.</p>
+                    <p>On June 29, 2018, the Provincial Government of Ontario announced the renaming of the Ministry of Advanced Education and Skills Development (MAESD) to the Ministry of Training, Colleges and Universities (MTCU). Both names may appear on this website.</p>
                 </div>
         `
     }

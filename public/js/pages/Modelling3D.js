@@ -7,14 +7,17 @@ export default class Modelling3DProgram extends Program{
     }
     
     getHeader(){
-        return `                    
+        return `  
+            <div class="prog-name">                   
             <h2>3D Modelling and Visual Effects Production</h2>
             <p>Credential:<strong>Certificate of Achievement</strong> | Program Code: 11671 | Length: 2 semesters | Program Starting Between: September 2020- August 2021</p>
+            </div>
         `
     }
 
     getMain(){
         return `
+                <article class="prog-descript">
                 <p>Humber's 3D Modelling and Visual Effects Production certificate program focuses on both the conceptual and the technical, as you learn to master visual techniques to bring ideas to life. You will develop skills in modelling, texturing and lighting, 
                     as well as in visual effects, compositing and digital cinematography. We employ a teaching process and course structure that requires content created in one course to be used to complete assignments in other courses. This “pipeline” process mirrors 
                     that of industry, allowing students to make a seamless transition into a real production environment.</p>
@@ -26,6 +29,7 @@ export default class Modelling3DProgram extends Program{
                     Students will study in our state-of-the-art labs equipped with Cintiq tablets and the latest tools and software.
 
                     This program is not eligible for Ontario Student Assistance Program (OSAP). It is eligible for Second Career Funding. Further details and how to apply are found at <a href="#">ontario.ca/page/second-career.</a></p>
+                    <article>
 
             `
     }
