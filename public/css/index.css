@@ -46,6 +46,12 @@ h1 {
     font-size: 1.1rem;
 }
 
+.router a:hover{
+    color: var(--col-humb-cy);
+    text-decoration: underline;
+    padding-bottom: 2%;
+}
+
 .banner{
     margin: 2rem 0 0 0;
 }
@@ -153,6 +159,15 @@ h1 {
     padding: 2rem 10rem;
 }
 
+.bottomRouter {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: tomato;
+    list-style-type: none;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
 .footer {
     background-color: var(--col-txt);
     width: 100%;
@@ -166,4 +181,5 @@ h1 {
     max-width: 3rem;
     padding-right: 0.5rem;
 }
+
 
