@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap');
+:root {
+    --col-bg: #EDEBEB;
+    --col-bg-hd: #F8F8F8;
+    --col-humb-bl:  #00204A;
+    --col-humb-gld: #E2A900;
+    --col-humb-cy:  #00A1E9;
+    --col-txt: #4A4848;
+    --font-body: 'Roboto';
+    --animations: 0.3s;
+}
+
+.topSec{
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: whitesmoke;
+    color: var(--col-humb-gld);
+}
+
+.vision{
+    font-size: 2.5rem;
+    padding: 7% 2.5% 0 2.5%;
+}
+
+.visPar{
+    padding: 0 2.5% 0 2.5%;
+}
+
+.middle{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.first{
+    background-color: var(--col-humb-bl);
+}
+
+.poly{
+    font-size: 2.5rem;
+    padding: 25% 2.5% 0 2.5%;
+    color: whitesmoke;
+}
+
+.polyPar{
+    padding: 0 2.5% 0 2.5%;
+    color: whitesmoke;
+}
+
+.second{
+    background-color: var(--col-humb-cy);
+    color: white;
+    text-align: center;
+}
+
+.acad{
+    font-size: 2.5rem;
+    padding: 25% 2.5% 0 2.5%;
+    color: whitesmoke;
+}
+
+.acadPar{
+    padding: 0 2.5% 0 2.5%;
+    color: whitesmoke;
+}
+
+.third{
+    background-color: var(--col-humb-gld);
+}
+
+.campus{
+    font-size: 2.5rem;
+    padding: 25% 2.5% 0 2.5%;
+    color: whitesmoke;
+}
+
+.campusPar{
+    padding: 0 2.5% 0 2.5%;
+    color: whitesmoke;
+}
+
+.bottom{
+    text-align: center;
+    background-color: white;
+    padding: 5% 10%;
+}
+
+.global{
+    color: var(--col-txt);
+    font-size: 3rem;
+    padding-bottom: 3%;
+}
+
+.globalPar{
+    color: var(--col-txt);
+    font-size: 1.5rem;
+}
