@@ -1,6 +1,6 @@
 import HomePage from '/js/pages/home.js'
 import AboutPage from '/js/pages/about.js'
-import StudentsPage from '/js/pages/students.js'
+import GraphicDesignPage from '/js/pages/GraphicDesign.js'
 
 const $routes = document.querySelectorAll('.router a')
 const $main =   document.querySelector('.main')
@@ -8,12 +8,13 @@ const $main =   document.querySelector('.main')
 const routes = {
 	home: new HomePage(),
 	about: new AboutPage(),
-	students: new StudentsPage()
+	graphicDesign: new GraphicDesignPage()
 }
 
 const loadPage = name => {
-    console.log(name);
-	if (!routes[name]) {
+    if(name.length == 0)
+		loadPage('home');
+	else if (!routes[name]) {
         // Show Error Page
         // Will implement later
     }
@@ -32,10 +33,12 @@ window.addEventListener('load', event => {
 
 	// Get the page url and load the Page based on the pathname
 	const route = window.location.pathname.slice(1).split('/')[0]
-	loadPage(route)
+	
+	loadPage(route);
 
 	// For all `.router a`...
 	$routes.forEach($link => {
+		
 		// When an anchor is clicked
 		$link.addEventListener('click', event => {
 
@@ -43,7 +46,8 @@ window.addEventListener('load', event => {
 
 			// Go to the page specified in the href
 			const route = $link.getAttribute('href').slice(1).split('/')[0]
-			loadPage(route)
+
+			loadPage(route);
 
 			// Add browser history so we can go back/forward
 			window.history.pushState({path:`${route}`}, '', `/${route}`)
