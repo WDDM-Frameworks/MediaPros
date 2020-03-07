@@ -5,6 +5,7 @@ import ModellingPage from '/js/pages/modelling3D.js'
 import WebDesignAndDevelopmentPage from '/js/pages/webDesignAndDevelopment.js'
 import ErrorPage from '/js/errorPage.js';
 import ProgramsPage from './pages/programs.js';
+import ContactPage from './pages/contact.js';
 
 const $routes = document.querySelectorAll('.router a')
 const $main =   document.querySelector('.main')
@@ -17,7 +18,8 @@ const routes = {
 	modelling3D: new ModellingPage(),
 	webDesignAndDevelopment: new WebDesignAndDevelopmentPage(),
 	errorPage: new ErrorPage(),
-	programs: new ProgramsPage()
+	programs: new ProgramsPage(),
+	contactUs: new ContactPage()
 
 }
 
