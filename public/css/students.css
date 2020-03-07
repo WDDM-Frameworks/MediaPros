@@ -1,0 +1,114 @@
+*{
+  margin: 0em;
+  padding: 0em;
+}
+@import url('https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800&display=swap&subset=latin-ext');
+
+body{
+  background-color: #151515;
+  color: white;
+  /* font-family: 'Dosis', sans-serif; */
+  font-family: 'Gothic A1', sans-serif;
+  margin: 1em;
+}
+.InfoGrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 2em;
+}
+.tileGrid{
+  display: grid;
+  /* margin: 1.5em 0.5em; */
+  gap: 1em;
+  padding: 0.5em;
+}
+.tile{
+  background-color: #202022;
+  padding: 0.8em;
+}
+div p{
+  padding: 0.5em;
+  color: #949495;
+}
+div h1{
+  font-weight: 900;
+}
+.zoom {
+  transition: transform .2s;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5); 
+}
+.dataGrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2em;
+  background-color: #252527;
+  padding: 2em;
+}
+.dataGridTile{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 1em;
+}
+.dataTile{
+  background-color: #202022;
+  display: grid;
+  margin: 1em;
+}
+.SampleImage{
+  width: 40em;
+  height: 50em;
+}
+.ProfilePicture{
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+}
+.user{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+
+
+@media(max-width:768px) {
+  .SampleImage{
+    width: 100%;
+    height: 50em;
+  }
+  .dataGridTile{
+    display: block;
+  }
+  .user{
+    gap: 1em;
+  }
+  }
+
+@media(max-width:425px) {
+.SampleImage{
+  width: 100%;
+  height: 20em;
+}
+.user{
+  display: block;
+  text-align: center;
+}
+.tileGrid{
+  display: block;
+}
+.InfoGrid{
+  grid-template-columns: 1fr;
+}
+.dataGrid{
+  /* grid-template-columns: 1fr; */
+  display: block;
+}
+.dataGridTile{
+  display: block;
+}
+}
