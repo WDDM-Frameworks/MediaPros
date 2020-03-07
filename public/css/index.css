@@ -160,12 +160,24 @@ h1 {
 }
 
 .bottomRouter {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    background-color: tomato;
-    list-style-type: none;
+    list-style: none;
+    text-decoration: none;
+}
+
+.bottomRouter li {
+    padding-top: .5em;
+}
+
+.bottomRouter a{
+    list-style: none;
     text-decoration: none;
     color: whitesmoke;
+}
+
+.bottomRouter a:hover{
+    color: var(--col-humb-cy);
+    text-decoration: underline;
+    padding-bottom: 2%;
 }
 
 .footer {
