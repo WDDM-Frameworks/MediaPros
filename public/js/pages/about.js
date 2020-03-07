@@ -32,6 +32,10 @@ export default class About extends Page{
         </div>
             <img src="/img/humber.jpg" width="100%" height="auto" alt="Humber">
         </section>
+        <section class="bottom">
+            <h2 class="global">HUMBER IS A GLOBAL LEADER</h2>
+            <p class="globalPar">Take theory, add practical learning, state-of-the-art labs and creative spaces and you will unleash innovative and entrepreneurial thinking. Integrate opportunities to move from a certificate to a diploma to a degree and beyond. Add in international partnerships to help you broaden your learning experience and develop intercultural skills – that’s the formula that makes Humber a global leader in polytechnic education.</p>
+        </section>
         `
     }
 }

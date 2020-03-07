@@ -80,3 +80,20 @@
     padding: 0 2.5% 0 2.5%;
     color: whitesmoke;
 }
+
+.bottom{
+    text-align: center;
+    background-color: white;
+    padding: 5% 10%;
+}
+
+.global{
+    color: var(--col-txt);
+    font-size: 3rem;
+    padding-bottom: 3%;
+}
+
+.globalPar{
+    color: var(--col-txt);
+    font-size: 1.5rem;
+}
