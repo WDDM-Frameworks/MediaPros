@@ -1,10 +1,20 @@
 import Page from '../page.js';
 
-export default class Students extends Page{
+export default class StudentTemplate extends Page{
     constructor(){
         super();
         this.html = `
-            <h2>Students</h2>
+                <section class="student">
+                    <header class = "prog-header">
+                        ${this.getHeader()}
+                        
+                    </header>
+
+                    <main>
+                        ${this.getMain()}
+                    </main>
+                    
+                </section>
         `
     }
 }

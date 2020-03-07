@@ -3,19 +3,18 @@ import Program from './programTemplate.js';
 export default class GraphicDesignProgram extends Program{
     constructor(){
         super();
+        this.html = this.getProgramTemplate();
     }
-    
+
     getHeader(){
-        return 
-                `                    
-                    <h2>Graphic Design</h2>
-                    <p>Credential:<strong>Advanced Diploma</strong> | Program Code: 11571 | Length: 6 semesters | Program Starting Between: September 2020- August 2021</p>
-                `
+        return `                    
+                <h2>Graphic Design</h2>
+                <p>Credential:<strong>Advanced Diploma</strong> | Program Code: 11571 | Length: 6 semesters | Program Starting Between: September 2020- August 2021</p>
+            `
     }
 
     getMain(){
-        return 
-                `
+        return  `
                 <p>Humber’s Graphic Design advanced diploma program develops creative and strategic designers who execute for a wide range of interactive media such as web and screen, user interaction, motion design and also traditional print products.
                 While learning and mastering design concepts, you will generate creative solutions and produce visuals for effective multimedia communication. As you gain desirable knowledge and skills, you will be exposed to the many topics and tasks 
                 required in contemporary design work. You will become strategically and typographically skilled and master digital, editorial, interactive, information, motion and web design techniques. Additionally, relevant programming and entrepreneurship 
@@ -27,7 +26,6 @@ export default class GraphicDesignProgram extends Program{
                     
                 <p>You will explore the many facets of graphic design and be instructed and trained on industry-based technology and software. Cross-disciplinary projects will allow you to develop collaborative and teamwork skills while preparing you for workplace 
                 environments. This program includes the unique opportunity to work with BuildingF, our in-house creative & business communications hub, working on real projects for clients while building your portfolio and professional contacts.</p>
-
-                `
+            `
     }
 }

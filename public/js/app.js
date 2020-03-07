@@ -1,22 +1,29 @@
 import HomePage from '/js/pages/home.js'
 import AboutPage from '/js/pages/about.js'
 import GraphicDesignPage from '/js/pages/GraphicDesign.js'
+import ModellingPage from '/js/pages/modelling3D.js'
+import WebDesignAndDevelopmentPage from '/js/pages/webDesignAndDevelopment.js'
+import ErrorPage from '/js/errorPage.js';
 
 const $routes = document.querySelectorAll('.router a')
 const $main =   document.querySelector('.main')
 
+
 const routes = {
 	home: new HomePage(),
 	about: new AboutPage(),
-	graphicDesign: new GraphicDesignPage()
+	graphicDesign: new GraphicDesignPage(),
+	modelling3D: new ModellingPage(),
+	webDesignAndDevelopment: new WebDesignAndDevelopmentPage(),
+	errorPage: new ErrorPage()
 }
 
 const loadPage = name => {
     if(name.length == 0)
-		loadPage('home');
+		$main.innerHTML = routes.home.getHTML() 
 	else if (!routes[name]) {
-        // Show Error Page
-        // Will implement later
+		// Show Error Page
+        $main.innerHTML = routes.errorPage.getHTML()  
     }
     else
 	    $main.innerHTML = routes[name].getHTML() 
@@ -52,5 +59,11 @@ window.addEventListener('load', event => {
 			// Add browser history so we can go back/forward
 			window.history.pushState({path:`${route}`}, '', `/${route}`)
 		})
+	})
+
+	const $programRoutes = document.querySelectorAll('.program a')
+	
+	$programRoutes.forEach($link => {
+		console.log($link);
 	})
 })
