@@ -23,7 +23,68 @@ export default class StudentTemplate extends Page{
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
           </div>
         </div>
-      </section>
+        </section>
+        <section class="dataGrid">
+        <div>
+            <h3>Education</h3>
+            <div>
+            <div class="dataTile">
+                <p>Web Design & Development (2020)</p>
+                <p>Humber College</p>
+            </div>
+            <div class="dataTile">
+                <p>Mobile Application Development (2019)</p>
+                <p>Canadore College</p>
+            </div>
+            <div class="dataTile">
+                <p>Bachelors of Computer Applications (2014-2017)</p>
+                <p>MGSU (India)</p>
+            </div>
+            </div>
+        </div>
+        <div>
+            <div>
+            <h3>Experience</h3>
+            <div>
+                <div class="dataTile">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni et voluptatibus delectus numquam.</p>
+                </div>
+                <div class="dataTile">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni et voluptatibus delectus numquam.</p>
+                </div>
+                <div class="dataTile">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni et voluptatibus delectus numquam.</p>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div>
+            <h3>Projects</h3>
+            <div>
+            <div class="dataTile">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni et voluptatibus delectus numquam.</p>
+            </div>
+            <div class="dataTile">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni et voluptatibus delectus numquam.</p>
+            </div>
+            <div class="dataTile">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni et voluptatibus delectus numquam.</p>
+            </div>
+        </div>
+        </div>
+        </section>
+        <article class="dataGridTile">
+            <div>
+                <h4>About</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque optio alias corporis, nobis provident aspernatur minima placeat reprehenderit tenetur eum dolores. Vitae inventore, eaque aperiam laboriosam repellendus nobis quidem a? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque optio alias corporis, nobis provident aspernatur minima placeat reprehenderit tenetur eum dolores. Vitae inventore, eaque aperiam laboriosam repellendus nobis quidem a?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque optio alias corporis, nobis provident aspernatur minima placeat reprehenderit tenetur eum dolores. Vitae inventore, eaque aperiam laboriosam repellendus nobis quidem a?Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque optio alias corporis, nobis provident aspernatur minima placeat reprehenderit tenetur eum dolores. Vitae inventore, eaque aperiam laboriosam repellendus nobis quidem a?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque optio alias corporis, nobis provident aspernatur minima placeat reprehenderit tenetur eum dolores. Vitae inventore, eaque aperiam laboriosam repellendus nobis quidem a?Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque optio alias corporis, nobis provident aspernatur minima placeat reprehenderit tenetur eum dolores. Vitae inventore, eaque aperiam laboriosam repellendus nobis quidem a?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque optio alias corporis, nobis provident aspernatur minima placeat reprehenderit tenetur eum dolores. Vitae inventore, eaque aperiam laboriosam repellendus nobis quidem a?Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque optio alias corporis, nobis provident aspernatur minima placeat reprehenderit tenetur eum dolores. Vitae inventore, eaque aperiam laboriosam repellendus nobis quidem a?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque optio alias corporis, nobis provident aspernatur minima placeat reprehenderit tenetur eum dolores. Vitae inventore, eaque aperiam laboriosam repellendus nobis quidem a?Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque optio alias corporis, nobis provident aspernatur minima placeat reprehenderit tenetur eum dolores. Vitae inventore, eaque aperiam laboriosam repellendus nobis quidem a?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque optio alias corporis, nobis provident aspernatur minima placeat reprehenderit tenetur eum dolores. Vitae inventore, eaque aperiam laboriosam repellendus nobis quidem a?Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque optio alias corporis, nobis provident aspernatur minima placeat reprehenderit tenetur eum dolores. Vitae inventore, eaque aperiam laboriosam repellendus nobis quidem a?</p>
+            </div>
+            <a href="#"><img src="/img/ProfilePicture.jfif" class="SampleImage"></a>
+        </article>
         `
     }
 }
