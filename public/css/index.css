@@ -205,6 +205,11 @@ h1 {
     .program-3d { font-size: 1rem;}
     .program-web { font-size: 1rem;}
     .grad-show { padding: 1rem;}
+    .bottomRouter li { padding-top: .20em;}
+    .bottomRouter a { font-size: 0.60rem;}
+    .footer img{ max-width: 1.80rem;
+        padding-right: 0.25rem;}
+    .copyright { font-size: 0.5rem;}
 }
 @media screen and (max-width: 550px)
 {
@@ -218,11 +223,11 @@ h1 {
     .program-web { font-size: 1.25rem;}
     .grad-show { padding: 1.5rem;}
 }
-@media screen and (max-width: 770px)
+@media screen and (max-width: 960px)
 {
     .router { padding: 2rem  1.5rem 0.5rem 0;}
     .router a {padding-right: 1rem;
-            font-size: 0.55rem;}
+            font-size: 1rem;}
     .faculty { font-size: 2rem;
         margin: 2.5rem auto;}
     .program-graphic { font-size: 1.50rem;}
@@ -230,4 +235,7 @@ h1 {
     .program-web { font-size: 1.50rem;}
     .grad-show { padding: 1.75rem ;}
 }
+
+
+
 
