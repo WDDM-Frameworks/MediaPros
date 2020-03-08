@@ -4,7 +4,7 @@ export default class Home extends Page{
     constructor(){
         super();
         this.html = `
-        <video controls autoplay src="/img/humber_mediapros_banner_JF_v.01.mp4" width="100%" height="auto" class></video>
+        <video controls autoplay src="/img/humber_mediapros_banner_JF_v.01.mp4" width="100%" height="auto" class="banner"></video>
         <article class="faculty">
           <p>Faculty of Media and Creative Arts</p>
           <article class="program graphic">
