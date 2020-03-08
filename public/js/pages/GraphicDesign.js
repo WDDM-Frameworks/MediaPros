@@ -8,10 +8,19 @@ export default class GraphicDesignProgram extends Program{
 
     getHeader(){
         return ` 
-                <div class="prog-name">                 
-                <h2>Graphic Design</h2>
-                <p>Credential: <strong>Advanced Diploma</strong> | Program Code: 11571 | Length: 6 semesters | Program Starting Between: September 2020- August 2021</p>
+                <article class="prog-name">
+                <div class="prog-image">
+                    <img src="/img/design.png" width="100%" alt="Graphic Designer">
                 </div>
+                <div class="prog-info">
+                    <div class="prog-tittle">
+                        <h2>Graphic Design</h2>
+                    </div>
+                    <div class="prog-text">
+                        <p>Credential: <strong>Advanced Diploma</strong><br>Program Code: 11571<br>Length: 6 semesters<br>Program Starting Between: September 2020- August 2021</p>        
+                    </div>
+                </div>
+                </article>
             `
     }
 
