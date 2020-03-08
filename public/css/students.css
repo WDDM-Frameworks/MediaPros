@@ -1,16 +1,11 @@
-*{
-  margin: 0em;
-  padding: 0em;
-}
 @import url('https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800&display=swap&subset=latin-ext');
 
-body{
+/* body{
   background-color: #151515;
   color: white;
-  /* font-family: 'Dosis', sans-serif; */
   font-family: 'Gothic A1', sans-serif;
   margin: 1em;
-}
+} */
 .InfoGrid{
   display: grid;
   grid-template-columns: 1fr 1fr;
