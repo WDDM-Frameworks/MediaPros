@@ -60,7 +60,7 @@ h1 {
 .faculty {
     font-size: 3rem;
     text-align: center;
-    margin: 2.5rem auto;
+    padding-top: 130px;
     font-family: "Roboto Condensed";
 }
 .faculty p{
