@@ -20,6 +20,7 @@ h1 {
 }
 
 .header {
+    margin-top: 0;
     display: flex;
     position: fixed;
     z-index: 1000;
@@ -30,7 +31,7 @@ h1 {
 
 .header img {
     padding: 0.7rem;
-    width: 25%;
+    width: 80%;
     height: auto;
 }
 .router {
@@ -46,11 +47,24 @@ h1 {
     font-size: 1.1rem;
 }
 
+.router a:hover{
+    color: var(--col-humb-cy);
+    text-decoration: underline;
+    padding-bottom: 2%;
+}
+
+.banner {
+    padding: 2rem 0;
+}
+
 .faculty {
     font-size: 3rem;
     text-align: center;
-    margin: 2.5rem auto;
+    padding-top: 130px;
     font-family: "Roboto Condensed";
+}
+.faculty p{
+    padding-bottom: 2rem;
 }
 
 .program {
@@ -145,3 +159,40 @@ h1 {
 .grad-show {
     padding: 2rem 10rem;
 }
+
+.bottomRouter {
+    list-style: none;
+    text-decoration: none;
+}
+
+.bottomRouter li {
+    padding-top: .5em;
+}
+
+.bottomRouter a{
+    list-style: none;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.bottomRouter a:hover{
+    color: var(--col-humb-cy);
+    text-decoration: underline;
+    padding-bottom: 2%;
+}
+
+.footer {
+    background-color: var(--col-txt);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    padding: 2rem;
+}
+
+.footer img{
+    max-width: 3rem;
+    padding-right: 0.5rem;
+}
+
+
