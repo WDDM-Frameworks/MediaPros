@@ -7,11 +7,20 @@ export default class WebDesignAndDevelopment extends Program{
     }
     
     getHeader(){
-        return `  
-            <div class="prog-name">                   
-            <h2>Web Design and Development</h2>
-            <p>Credential:<strong>Certificate of Achievement</strong> | Program Code: WD911 | Length: 2 semesters | Program Starting Between: September 2020- August 2021</p>
-            </div>
+        return `
+            <article class="prog-name">
+                <div class="prog-image">
+                    <img src="/img/wddm.png" width="100%" alt="Graphic Designer">
+                </div>
+                <div class="prog-info">
+                    <div class="prog-tittle modell">
+                        <h2>Web Design and Development</h2>
+                    </div>
+                    <div class="prog-text">
+                        <p>Credential: <strong>Certificate of Achievement</strong><br>Program Code: WD911<br>Length: 2 semesters<br>Program Starting Between: September 2020- August 2021</p>        
+                    </div>
+                </div>
+            </article>
         `
     }
 

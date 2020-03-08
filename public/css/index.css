@@ -53,8 +53,8 @@ h1 {
     padding-bottom: 2%;
 }
 
-.banner{
-    margin: 2rem 0 0 0;
+.banner {
+    padding: 2rem 0;
 }
 
 .faculty {
@@ -157,7 +157,7 @@ h1 {
 }
 
 .grad-show {
-    padding: 2rem 10rem;
+    padding: 2rem 2rem;
 }
 
 .bottomRouter {
@@ -194,5 +194,48 @@ h1 {
     max-width: 3rem;
     padding-right: 0.5rem;
 }
+@media screen and (max-width: 320px)
+{
+    .router { padding: 1rem  0.75rem 0.20rem 0;}
+    .router a {padding-right: 0.75rem;
+            font-size: 0.55rem;}
+    .faculty { font-size: 1rem;
+        margin: 1.5rem auto;}
+    .program-graphic { font-size: 1rem;}
+    .program-3d { font-size: 1rem;}
+    .program-web { font-size: 1rem;}
+    .grad-show { padding: 1rem;}
+    .bottomRouter li { padding-top: .20em;}
+    .bottomRouter a { font-size: 0.60rem;}
+    .footer img{ max-width: 1.80rem;
+        padding-right: 0.25rem;}
+    .copyright { font-size: 0.5rem;}
+}
+@media screen and (max-width: 550px)
+{
+    .router { padding: 1.5rem  1rem 0.5rem 0;}
+    .router a {padding-right: 0.75rem;
+            font-size: 0.55rem;}
+    .faculty { font-size: 1.75rem;
+        margin: 2.5rem auto;}
+    .program-graphic { font-size: 1.25rem;}
+    .program-3d { font-size: 1.25rem;}
+    .program-web { font-size: 1.25rem;}
+    .grad-show { padding: 1.5rem;}
+}
+@media screen and (max-width: 960px)
+{
+    .router { padding: 2rem  1.5rem 0.5rem 0;}
+    .router a {padding-right: 1rem;
+            font-size: 1rem;}
+    .faculty { font-size: 2rem;
+        margin: 2.5rem auto;}
+    .program-graphic { font-size: 1.50rem;}
+    .program-3d { font-size: 1.50rem;}
+    .program-web { font-size: 1.50rem;}
+    .grad-show { padding: 1.75rem ;}
+}
+
+
 
 
