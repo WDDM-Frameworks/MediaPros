@@ -23,11 +23,11 @@ export default class JorgeFabregas extends Student{
     getStudentHighlights(){
         return `
             <div class="tile zoom">
-                <h2>Heading</h2>
+                <h2>Design</h2>
                 <p>Prepress Technician, Graphic Designer and Web Designer.</p>
             </div>
             <div class="tile zoom">
-                <h2>Heading 2</h2>
+                <h2>Technical</h2>
                 <p>Strong knowledge in Adobe CSS, HTML, CSS, After Effects <br>and Color Theory.</p>
             </div>
         `
@@ -36,11 +36,11 @@ export default class JorgeFabregas extends Student{
     getEducation(){
         return `
             <div class="dataTile">
-                <p>Web Design & Development. (2020)</p>
+                <h3>Web Design & Development. (2020)</h3>
                 <p>Humber College</p>
             </div>
             <div class="dataTile">
-                <p>Professional Digital Preprint Diploma. (2008)</p>
+                <h3>Professional Digital Preprint Diploma. (2008)</h3>
                 <p>Chile</p>
             </div>
         `
@@ -49,13 +49,13 @@ export default class JorgeFabregas extends Student{
     getExperience(){
         return `
             <div class="dataTile">
-                <p>Digiflex Graphic Services Ltda. (2013-2017)</p>
+                <h3>Digiflex Graphic Services Ltda. (2013-2017)</h3>
             </div>
             <div class="dataTile">
-                <p>Retografica Ltda. (Schawk Group) (2004-2017)</p>
+                <h3>Retografica Ltda. (Schawk Group) (2004-2017)</h3>
             </div>
             <div class="dataTile">
-                <p>Munizaga Ltda. (2000-2004)</p>
+                <h3>Munizaga Ltda. (2000-2004)</h3>
             </div>
         `
     }

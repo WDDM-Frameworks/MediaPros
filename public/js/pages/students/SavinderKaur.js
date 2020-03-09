@@ -20,12 +20,12 @@ export default class SavinderKaur extends Student{
     getStudentHighlights(){
         return `
             <div class="tile zoom">
-                <h2>Computer Literacy</h2>
+                <hh3>Computer Literacy</h3>
                 <p>Knowledge of  HTML, CSS, JavaScript, Adobe Creative Suite and Node.js. 
                 </p>
             </div>
             <div class="tile zoom">
-                <h2>Skills</h2>
+                <h3>Skills</h3>
                 <p>Outstanding proficiency with MS Office applications including Word, Excel, Access and Powerpoint.</p>
             </div>
         `
@@ -34,15 +34,15 @@ export default class SavinderKaur extends Student{
     getEducation(){
         return `
             <div class="dataTile">
-                <p>Web Design & Development (2020)</p>
+                <h3>Web Design & Development (2020)</h3>
                 <p>Humber College</p>
             </div>
             <div class="dataTile">
-                <p>Project Management(2019)</p>
+                <h3>Project Management(2019)</h3>
                 <p>Lambton College</p>
             </div>
             <div class="dataTile">
-                <p>Bachelor in Computer Application (2018)</p>
+                <h3>Bachelor in Computer Application (2018)</h3>
                 <p>SVIET (India)</p>
             </div>
         `
