@@ -64,7 +64,6 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: black;
 }
-
 .faculty {
     font-size: 3rem;
     text-align: center;
@@ -73,6 +72,14 @@ h1 {
 }
 .faculty p{
     padding-bottom: 2rem;
+}
+.registration
+{
+    text-align: center;
+    padding: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 2rem;
 }
 
 .program {
