@@ -6,6 +6,21 @@
   font-family: 'Gothic A1', sans-serif;
   margin: 1em;
 } */
+.Universal{
+  color: white;
+  font-family: 'Gothic A1', sans-serif;
+}
+section h1{
+  color: black;
+  font-size: 1.4em;
+}
+section h2{
+  font-size: 1.3em;
+}
+section h3{
+  font-size: 1.29em;
+  color: white;
+}
 .InfoGrid{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -34,9 +49,9 @@ div h1{
 }
 
 .zoom:hover {
-  -ms-transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5); 
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1); 
 }
 .dataGrid{
   display: grid;

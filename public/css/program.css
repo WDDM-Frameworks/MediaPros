@@ -1,5 +1,5 @@
-/*.prog-header {
-    padding-top: 100px;
+.prog-header {
+    /* padding-top: 100px; */
     text-align: center;
     color: var(--col-txt); 
 }
@@ -12,7 +12,7 @@
 
 .prog-header  p {
     padding-top: 1.6rem;
-}*/
+}
 
 .prog-name {
     padding-top: 96.66px;
@@ -84,4 +84,3 @@
     text-align: justify;
     font-size: 0.8rem;
 }
-

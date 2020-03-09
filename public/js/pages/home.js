@@ -5,6 +5,8 @@ export default class Home extends Page{
         super();
         this.html = `
         <video controls autoplay src="/img/humber_mediapros_banner_JF_v.01.mp4" width="100%" height="auto" class="banner"></video>
+        <p class="some-one">Humber invites you to attend our 2019 MEDIA PROS Grad Show.</p>
+        <p class="some-one">Join our students from the one-year intensive study programs in Graphic Design, Web Design and Development and 3D Modelling and Visual Effects; browse their portfolios, talk about their career goals and maybe find your next best employee.</p>
         <article class="faculty">
           <p>Faculty of Media and Creative Arts</p>
           <article class="program graphic">
@@ -20,7 +22,9 @@ export default class Home extends Page{
             <img src="/img/web_design.png" alt="">
           </article>
         </article>
-        <span><img src="/img/grad_show.png" class="grad-show" alt="Grad Show"></span>
+        <p class="registration">Register at <a href="https://www.eventbrite.com/e/humber-media-pros-grad-show-2019-registration-65547856403">humbermediaprosgradshow2019.eventbrite.com</a></p>
+        <span><a href="https://www.eventbrite.com/e/humber-media-pros-grad-show-2019-registration-65547856403"><img src="/img/grad_show.png" class="grad-show" alt="Grad Show"></a></span>
+        
         `
     }
 }
