@@ -56,27 +56,31 @@ h1 {
 .banner {
     padding-top: 1rem;
 }
-.some-one
-{
-    text-align: center;
-    line-height: 1.5rem;
-    padding: 1em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: black;
-}
+
 .faculty {
     font-size: 3rem;
     text-align: center;
-    padding-top: 3rem;
+    padding-top: 7rem;
     font-family: "Roboto Condensed";
 }
 .faculty p{
     padding-bottom: 2rem;
 }
+
+.some-one
+{
+    text-align: center;
+    line-height: 1.5rem;
+    /* /* margin-top: -5em; */
+    margin-top: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+
 .registration
 {
     text-align: center;
-    padding: 1em;
+    margin: 1em;
     font-family: 'Times New Roman', Times, serif;
     color: black;
     font-size: 2rem;
@@ -191,10 +195,9 @@ h1 {
 .students
 {
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    height: 70vh;
+    grid-template-columns: 1fr 1fr 1fr;
 }
-.stu
+.students > article
 {
     padding-top: 5rem;
     width: 100%;
@@ -278,7 +281,6 @@ h1 {
     .program-web { font-size: 1.50rem;}
     .grad-show { padding: 1.75rem ;}
 }
-
 
 
 
