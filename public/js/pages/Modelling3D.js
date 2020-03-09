@@ -39,7 +39,6 @@ export default class Modelling3DProgram extends Program{
 
                     This program is not eligible for Ontario Student Assistance Program (OSAP). It is eligible for Second Career Funding. Further details and how to apply are found at <a href="#">ontario.ca/page/second-career.</a></p>
                     <article>
-
             `
     }
 }

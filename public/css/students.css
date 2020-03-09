@@ -9,7 +9,7 @@
 .InfoGrid{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 2em;
+  padding: 8rem 2rem 2rem 2em;
 }
 .tileGrid{
   display: grid;
