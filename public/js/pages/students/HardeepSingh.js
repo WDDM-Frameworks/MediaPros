@@ -20,7 +20,7 @@ export default class HardeepSingh extends Student{
     getStudentHighlights(){
         return `
             <div class="tile zoom">
-                <h2>Heading</h2>
+                <h3>heading</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
             </div>
             <div class="tile zoom">
