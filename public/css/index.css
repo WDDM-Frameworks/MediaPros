@@ -56,15 +56,19 @@ h1 {
 .banner {
     padding-top: 1rem;
 }
+.some-one
+{
+    text-align: center;
+    line-height: 1.5rem;
+    padding: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
 .faculty {
     font-size: 3rem;
     text-align: center;
-<<<<<<< HEAD
     padding-top: 130px;
-=======
     padding-top: 7rem;
->>>>>>> 8d3603def453f229f2a75818506adebb4b0c0ddb
     font-family: "Roboto Condensed";
 }
 .faculty p{

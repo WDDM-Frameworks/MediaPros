@@ -5,6 +5,9 @@ export default class Home extends Page{
         super();
         this.html = `
         <video controls autoplay src="/img/humber_mediapros_banner_JF_v.01.mp4" width="100%" height="auto" class="banner"></video>
+        <p class="some-one">Humber invites you to attend our 2019 MEDIA PROS Grad Show.</p>
+        <p class="some-one">Join our students from the one-year intensive study programs in Graphic Design, Web Design and Development and 3D Modelling and Visual Effects; browse their portfolios, talk about their career goals and maybe find your next best employee.</p>
+        <p class="some-one">Register at <a href="#">humbermediaprosgradshow2019.eventbrite.com</a></p>
         <article class="faculty">
           <p>Faculty of Media and Creative Arts</p>
           <article class="program graphic">
