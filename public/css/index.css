@@ -170,7 +170,35 @@ h1 {
     text-align: center;
     padding: 1em;
 }
+.student-head
+{
+    padding-top:7rem;
+    text-align: center;
+    font-size: 2rem;
+}
+.name-stu a 
+{
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.25rem;
+    padding-left: 2em;
+}
+.name-stu a:hover
+{
+    font-size: 1.5rem;
+}
 
+.students
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    height: 70vh;
+}
+.stu
+{
+    padding-top: 5rem;
+    width: 100%;
+}
 .grad-show {
     padding: 2rem 2rem;
 }
