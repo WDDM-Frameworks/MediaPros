@@ -22,8 +22,8 @@ export default class Home extends Page{
             <img src="/img/web_design.png" alt="">
           </article>
         </article>
-        <p class="registration">Register at <a href="#">humbermediaprosgradshow2019.eventbrite.com</a></p>
-        <span><img src="/img/grad_show.png" class="grad-show" alt="Grad Show"></span>
+        <p class="registration">Register at <a href="https://www.eventbrite.com/e/humber-media-pros-grad-show-2019-registration-65547856403">humbermediaprosgradshow2019.eventbrite.com</a></p>
+        <span><a href="https://www.eventbrite.com/e/humber-media-pros-grad-show-2019-registration-65547856403"><img src="/img/grad_show.png" class="grad-show" alt="Grad Show"></a></span>
         
         `
     }

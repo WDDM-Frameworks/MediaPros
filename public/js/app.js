@@ -56,7 +56,7 @@ window.addEventListener('popstate', event => {
 const decideRoute = linkPath => {
 	let route='ErrorPage';
 
-	if(linkPath.search('student') != -1 && linkPath != '/students'){
+	if((linkPath.search('student') != -1 && linkPath != '/students') || (linkPath.search('program') != -1 && linkPath != '/programs')){
 		
 		route = linkPath.slice(1).split('/')[1];
 	}
