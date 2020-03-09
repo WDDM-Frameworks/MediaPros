@@ -9,11 +9,14 @@ export default class JorgeFabregas extends Student{
     getStudentHeader(){
         return ` 
             <section class="user">
-                <img src="/img/students/ProfilePicture.jpg" alt="Profile Picture" class="ProfilePicture zoom">
-                <h1>Hello, <br> My Name is Kunal Dhawan.</h1>
+                <img src="/img/students/jf_bn.png" alt="Profile Picture" class="ProfilePicture zoom">
+                <h1>Hello, <br> My Name is Jorge Fabregas.</h1>
             </section>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque cupiditate reiciendis ex, voluptas voluptatibus, nam repellendus distinctio odio perferendis provident rerum unde ullam inventore accusantium quisquam fuga tempora asperiores rem.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse porro vero atque harum labore iste corrupti, at distinctio ab perferendis vitae id ut tempora! Recusandae odio modi explicabo culpa sequi!</p>
+            <p>More than 20 years of progressive experience in the graphics field, with a demonstrated expertise in the most important
+            printing systems, such as offset, digital print and flexography, and a deep proficiency in color theory, ICC profiles, image
+            retouching and an expert level using Adobe Creative Suite (Illustrator, Photoshop, In Design, Acrobat).</p>
+            <p>Strong passion for design and creative thinker, with great prowess in graphic concepts and innovative software, such as
+            Adobe Animate and After Effects.</p>
             `
     }
 
@@ -21,11 +24,11 @@ export default class JorgeFabregas extends Student{
         return `
             <div class="tile zoom">
                 <h2>Heading</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <p>Prepress Technician, Graphic Designer and Web Designer.</p>
             </div>
             <div class="tile zoom">
                 <h2>Heading 2</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <p>Strong knowledge in Adobe CSS, HTML, CSS, After Effects <br>and Color Theory.</p>
             </div>
         `
     }
@@ -33,16 +36,12 @@ export default class JorgeFabregas extends Student{
     getEducation(){
         return `
             <div class="dataTile">
-                <p>Web Design & Development (2020)</p>
+                <p>Web Design & Development. (2020)</p>
                 <p>Humber College</p>
             </div>
             <div class="dataTile">
-                <p>Mobile Application Development (2019)</p>
-                <p>Canadore College</p>
-            </div>
-            <div class="dataTile">
-                <p>Bachelors of Computer Applications (2014-2017)</p>
-                <p>MGSU (India)</p>
+                <p>Professional Digital Preprint Diploma. (2008)</p>
+                <p>Chile</p>
             </div>
         `
     }
@@ -50,13 +49,13 @@ export default class JorgeFabregas extends Student{
     getExperience(){
         return `
             <div class="dataTile">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni et voluptatibus delectus numquam.</p>
+                <p>Digiflex Graphic Services Ltda. (2013-2017)</p>
             </div>
             <div class="dataTile">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni et voluptatibus delectus numquam.</p>
+                <p>Retografica Ltda. (Schawk Group) (2004-2017)</p>
             </div>
             <div class="dataTile">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni et voluptatibus delectus numquam.</p>
+                <p>Munizaga Ltda. (2000-2004)</p>
             </div>
         `
     }
@@ -77,16 +76,19 @@ export default class JorgeFabregas extends Student{
 
     getAbout(){
         return `
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque optio alias corporis, nobis provident aspernatur minima placeat reprehenderit tenetur eum dolores. Vitae inventore, eaque aperiam laboriosam repellendus nobis quidem a? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque optio alias corporis, nobis provident aspernatur minima placeat reprehenderit tenetur eum dolores. Vitae inventore, eaque aperiam laboriosam repellendus nobis quidem a?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque optio alias corporis, nobis provident aspernatur minima placeat reprehenderit tenetur eum dolores. Vitae inventore, eaque aperiam laboriosam repellendus nobis quidem a?Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque optio alias corporis, nobis provident aspernatur minima placeat reprehenderit tenetur eum dolores. Vitae inventore, eaque aperiam laboriosam repellendus nobis quidem a?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque optio alias corporis, nobis provident aspernatur minima placeat reprehenderit tenetur eum dolores. Vitae inventore, eaque aperiam laboriosam repellendus nobis quidem a?Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque optio alias corporis, nobis provident aspernatur minima placeat reprehenderit tenetur eum dolores. Vitae inventore, eaque aperiam laboriosam repellendus nobis quidem a?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque optio alias corporis, nobis provident aspernatur minima placeat reprehenderit tenetur eum dolores. Vitae inventore, eaque aperiam laboriosam repellendus nobis quidem a?Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque optio alias corporis, nobis provident aspernatur minima placeat reprehenderit tenetur eum dolores. Vitae inventore, eaque aperiam laboriosam repellendus nobis quidem a?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque optio alias corporis, nobis provident aspernatur minima placeat reprehenderit tenetur eum dolores. Vitae inventore, eaque aperiam laboriosam repellendus nobis quidem a?Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque optio alias corporis, nobis provident aspernatur minima placeat reprehenderit tenetur eum dolores. Vitae inventore, eaque aperiam laboriosam repellendus nobis quidem a?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque optio alias corporis, nobis provident aspernatur minima placeat reprehenderit tenetur eum dolores. Vitae inventore, eaque aperiam laboriosam repellendus nobis quidem a?Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque optio alias corporis, nobis provident aspernatur minima placeat reprehenderit tenetur eum dolores. Vitae inventore, eaque aperiam laboriosam repellendus nobis quidem a?</p>
+            <p>More than 20 years of progressive experience in the graphics field, with a demonstrated expertise in the most important
+            printing systems, such as offset, digital print and flexography, and a deep proficiency in color theory, ICC profiles, image
+            retouching and an expert level using Adobe Creative Suite (Illustrator, Photoshop, In Design, Acrobat).</p>
+            <p>Solid understanding and experience in front-end and back end development. Proven work background developing large and
+            complex applications and sites, with a strong and advanced competence with Visual Studio, HTML, CSS and JavaScript.</p>
+            <p>Strong passion for design and creative thinker, with great prowess in graphic concepts and innovative software, such as
+            Adobe Animate and After Effects.</p>
+            <p>Demonstrated success as multifaceted and problem-solving, with proven skills such as management, leadership and high
+            quality.</p>
         `
     }
 
     getAboutImage(){
-        return `<a href="#"><img src="/img/students/ProfilePicture.jpg" alt="About Image" class="SampleImage"></a>`
+        return `<a href="#"><img src="/img/students/jf_dt.png" alt="About Image" class="SampleImage"></a>`
     }
 }
