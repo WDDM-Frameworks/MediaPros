@@ -3,18 +3,49 @@ import Page from '../page.js';
 export default class StudentTemplate extends Page{
     constructor(){
         super();
-        this.html = `
-                <section class="student">
-                    <header class = "prog-header">
-                        ${this.getHeader()}
-                        
-                    </header>
+    }
 
-                    <main>
-                        ${this.getMain()}
-                    </main>
-                    
-                </section>
+    getStudentData(){
+        return `
+        <section class="InfoGrid">
+            <div>
+                ${this.getStudentHeader()}
+            </div>
+            <div class="tileGrid">
+                ${this.getStudentHighlights()}
+            </div>
+        </section>
+
+        <section class="dataGrid">
+            <div>
+                <div>
+                    <h3>Education</h3>
+                    ${this.getEducation()}
+                </div>
+            </div>
+        
+            <div>
+                <div>
+                    <h3>Experience</h3>
+                    <div>
+                        ${this.getExperience()}
+                    </div>
+                </div>
+            </div>
+        <div>
+            <h3>Projects</h3>
+            <div>
+                ${this.getProjects()}
+            </div>
+        </div>
+        </section>
+        <article class="dataGridTile">
+            <div>
+                <h4>About</h4>
+                ${this.getAbout()}
+            </div>
+            ${this.getAboutImage()}
+        </article>
         `
     }
 }
