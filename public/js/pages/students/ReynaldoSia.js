@@ -33,15 +33,15 @@ export default class ReynaldoSia extends Student{
     getEducation(){
         return `
             <div class="dataTile">
-                <p>HR Management (2021)</p>
+                <h3>HR Management (2021)</h3>
                 <p>Humber College</p>
             </div>
             <div class="dataTile">
-                <p>Web Design & Development (2020)</p>
+                <h3>Web Design & Development (2020)</h3>
                 <p>Humber College</p>
             </div>
             <div class="dataTile">
-                <p>Bachelors Degree Major in Psychology (2014-2017)</p>
+                <h3>Bachelors Degree Major in Psychology (2014-2017)</h3>
                 <p>Ateneo de Manila University (Philippines)</p>
             </div>
         `
