@@ -6,6 +6,20 @@
   font-family: 'Gothic A1', sans-serif;
   margin: 1em;
 } */
+.Universal{
+  color: white;
+  font-family: 'Gothic A1', sans-serif;
+}
+section h1{
+  color: black;
+  font-size: 1.4em;
+}
+section h2{
+  font-size: 1.3em;
+}
+section h3{
+  font-size: 1.29em;
+}
 .InfoGrid{
   display: grid;
   grid-template-columns: 1fr 1fr;

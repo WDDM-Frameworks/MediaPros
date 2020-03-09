@@ -7,6 +7,7 @@ export default class StudentTemplate extends Page{
 
     getStudentData(){
         return `
+        <section class="Universal">
         <section class="InfoGrid">
             <div>
                 ${this.getStudentHeader()}
@@ -46,6 +47,7 @@ export default class StudentTemplate extends Page{
             </div>
             ${this.getAboutImage()}
         </article>
+        </section>
         `
     }
 }

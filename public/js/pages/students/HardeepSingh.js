@@ -64,7 +64,8 @@ export default class HardeepSingh extends Student{
     getProjects(){
         return `
             <div class="dataTile">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni et voluptatibus delectus numquam.</p>
+            <h3>AirBnB</h3>
+                <p>AirBnB app is the fully featured project powered by Node-Express Technology.</p>
             </div>
             <div class="dataTile">
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni et voluptatibus delectus numquam.</p>
