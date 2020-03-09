@@ -9,7 +9,7 @@ import ContactPage from './pages/contact.js';
 import StudentsPage from './pages/students.js';
 import HardeepSingh from './pages/students/HardeepSingh.js';
 import JorgeFabregas from './pages/students/JorgeFabregas.js';
-import ReyanaldoSia from './pages/students/ReyanaldoSia.js';
+import ReyanaldoSia from './pages/students/ReynaldoSia.js';
 import SavinderKaur from './pages/students/SavinderKaur.js';
 import KunalDhawan from './pages/students/KunalDhawan.js';
 

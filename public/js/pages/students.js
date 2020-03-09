@@ -11,7 +11,7 @@ export default class Students extends Page{
                     <img src="/img/graphic_design.png" width="100%" height="auto" alt="Graphic Design">
                 </article>
                 <article class="program 3d">
-                    <h1 class="program-3d"><a href="/student/ReyanaldoSia">Reyanaldo Sia</a></h1>
+                    <h1 class="program-3d"><a href="/student/ReynaldoSia">Reynaldo Sia</a></h1>
                     <img src="/img/3d_modelling.png" alt="">
                 </article>
                 <article class="program web">
