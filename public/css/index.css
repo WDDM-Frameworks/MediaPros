@@ -62,13 +62,13 @@ h1 {
     line-height: 1.5rem;
     padding: 1em;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
 }
 
 .faculty {
     font-size: 3rem;
     text-align: center;
-    padding-top: 130px;
-    padding-top: 7rem;
+    padding-top: 3rem;
     font-family: "Roboto Condensed";
 }
 .faculty p{
