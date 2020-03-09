@@ -11,11 +11,11 @@ export default class Programs extends Page{
                 <img src="/img/graphic_design.png" width="100%" height="auto" alt="Graphic Design">
                 </article>
                 <article class="program 3d">
-                <h1 class="program-3d"><a href="/modelling3D">3d modelling and Visual effects</a></h1>
+                <h1 class="program-3d"><a href="/programs/modelling3D">3d modelling and Visual effects</a></h1>
                 <img src="/img/3d_modelling.png" alt="">
                 </article>
                 <article class="program web">
-                <h1 class="program-web"><a href="/webDesignAndDevelopment">web design and development</a></h1>
+                <h1 class="program-web"><a href="/programs/webDesignAndDevelopment">web design and development</a></h1>
                 <img src="/img/web_design.png" alt="">
                 </article>
             </article>
