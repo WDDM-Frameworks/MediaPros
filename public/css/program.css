@@ -1,4 +1,4 @@
-/*.prog-header {
+.prog-header {
     padding-top: 100px;
     text-align: center;
     color: var(--col-txt); 
@@ -12,40 +12,8 @@
 
 .prog-header  p {
     padding-top: 1.6rem;
-}*/
-
-.prog-name {
-    padding-top: 96.66px;
-    margin: 0 2rem;
-    background-color: var(--col-humb-bl);
 }
 
-.prog-info {
-    display: flex;
-    justify-content: space-between;
-    line-height: 2rem;
-}
-.prog-tittle {
-    color: white;
-    padding: 5rem 10rem 4rem 2rem;
-    overflow: hidden;
-    font-size: 3rem;
-}
-
-.modell {
-    font-size: 2rem;
-    line-height: 2rem;
-}
-
-.prog-text {
-    color: white;
-    padding: 2rem 4rem;
-    text-align: right;
-}
-
-.prog-header {
-    text-align: center;
-}
 .prog-button {
     margin-top: 2rem;
     padding: 0.5rem;
@@ -53,7 +21,6 @@
     border-radius: 0.5rem;
     text-transform: uppercase;
     font-family: 'Roboto Condensed';
-    text-align: center;
 }
 
 .info-button {
@@ -74,6 +41,7 @@
     margin: 2rem 2rem 1rem 2rem;
     line-height: 1.8rem;
     text-align: justify;
+    background-color: var(--col-bg-hd);
     padding: 2rem;
 }
 
@@ -84,4 +52,3 @@
     text-align: justify;
     font-size: 0.8rem;
 }
-
