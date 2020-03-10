@@ -13,22 +13,22 @@
 .contactTop{
     padding-top: 120px;
     color: var(--col-txt);
-    font-size: 2rem;
+    font-size: .7rem;
     text-align: center;
-    padding-left: 25%;
-    padding-right: 25%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .contactNum{
     padding: 1% 0;
     text-align: center;
-    font-size: 6rem;
+    font-size: .7rem;
     color: var(--col-humb-cy);
 }
 
 h3{
     text-align: center;
-    font-size: 2rem;
+    font-size: .7rem;
     color: var(--col-txt);
     padding: 1.5% 0;
 }
@@ -37,17 +37,78 @@ h3{
     padding: 2% 0;
     text-align: center;
     color: var(--col-txt);
-    font-size: 2rem;
+    font-size: .7rem;
 }
 
 .email{
     text-align: center;
     padding-top: 1%;
     padding-bottom: 3%;
-    font-size: 4rem;
+    font-size: .7rem;
 }
 
 .email a{
     text-decoration: none;
     color: var(--col-humb-cy);
 }
+
+@media only screen and (min-width: 22.5em) {}
+
+@media only screen and (min-width: 29.375em) {}
+
+@media only screen and (min-width: 37.5em) {
+
+    .contactTop{
+        font-size: 1.5rem;
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+
+    .contactNum{
+        font-size: 2rem;
+    }
+    
+    h3{
+        font-size: 1.5rem;
+    }
+    
+    .contactBottom{
+        font-size: 1.5rem;
+    }
+    
+    .email{
+        font-size: 2rem;
+    }
+    
+}
+
+@media only screen and (min-width: 48em) {}
+
+@media only screen and (min-width: 62em) {
+}
+
+@media only screen and (min-width: 75em) {
+    .contactTop{
+        font-size: 2rem;
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+
+    .contactNum{
+        font-size: 6rem;
+    }
+    
+    h3{
+        font-size: 2rem;
+    }
+    
+    .contactBottom{
+        font-size: 2rem;
+    }
+    
+    .email{
+        font-size: 4rem;
+    }
+}
+
+@media only screen and (min-width: 112em) {}
