@@ -180,6 +180,10 @@ h1 {
     text-align: center;
     font-size: 2rem;
 }
+.name-stu
+{
+    padding-top: 2rem;
+}
 .name-stu a 
 {
     text-decoration: none;
@@ -195,11 +199,21 @@ h1 {
 .students
 {
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 0.5em;
+    height: 100vh;
 }
 .students > article
 {
     padding-top: 5rem;
+    width: 100%;
+}
+.stu img
+{
+    margin-top: 8px;
+    height:400px;
+    width: 400px;
+    vertical-align: middle;
     width: 100%;
 }
 .grad-show {
@@ -256,6 +270,8 @@ h1 {
     .footer img{ max-width: 1.80rem;
         padding-right: 0.25rem;}
     .copyright { font-size: 0.5rem;}
+    .students{ grid-template-columns: 1fr;}
+    .students image {height:200px; width:200px};
 }
 @media screen and (max-width: 550px)
 {
@@ -268,6 +284,8 @@ h1 {
     .program-3d { font-size: 1.25rem;}
     .program-web { font-size: 1.25rem;}
     .grad-show { padding: 1.5rem;}
+    .students{ grid-template-columns: 1fr 1fr;}
+    .students image {height:300px; width:300px};
 }
 @media screen and (max-width: 960px)
 {
@@ -280,6 +298,7 @@ h1 {
     .program-3d { font-size: 1.50rem;}
     .program-web { font-size: 1.50rem;}
     .grad-show { padding: 1.75rem ;}
+    .students{ grid-template-columns: 1fr 1fr;}
 }
 
 
