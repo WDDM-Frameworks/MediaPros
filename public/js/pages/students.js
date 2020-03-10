@@ -9,32 +9,42 @@ export default class Students extends Page{
                 <article class="students">
                 <div class="studentdiv">
                     <article class="stu one">
-                        <h1 class="name-stu"><a href="/student/SavinderKaur">Savinder Kaur</a></h1>
-                        <img src="/img/students/SK.jpg"  width="100%" alt="samplepicture">
+                        <a href="/student/SavinderKaur">
+                            <h1 class="name-stu">Savinder Kaur</h1>
+                            <img src="/img/students/SK.jpg"  width="100%" alt="samplepicture">
+                        </a>
                     </article>
                 </div>
                 <div class="studentdiv">
                     <article class="stu two">
-                        <h1 class="name-stu"><a href="/student/ReynaldoSia">Reynaldo Sia</a></h1>
-                        <img src="/img/students/JRSia.png"  width="100%" alt="samplepicture">
+                        <a href="/student/ReynaldoSia">
+                            <h1 class="name-stu">Reynaldo Sia</h1>
+                            <img src="/img/students/JRSia.png"  width="100%" alt="samplepicture">
+                        </a>
                     </article>
                 </div>
                 <div class="studentdiv">
                     <article class="stu three">
-                        <h1 class="name-stu"><a href="/student/KunalDhawan">Kunal Dhawan</a></h1>
-                        <img src="/img/students/KunalDhawan.jpg" width="100%" alt="samplepicture">
+                        <a href="/student/KunalDhawan">
+                            <h1 class="name-stu">Kunal Dhawan</h1>
+                            <img src="/img/students/KunalDhawan.jpg" width="100%" alt="samplepicture">
+                        </a>
                     </article>
                 </div>
                 <div class="studentdiv">
                     <article class="stu four">
-                        <h1 class="name-stu"><a href="/student/HardeepSingh">Hardeep Singh</a></h1>
-                        <img src="/img/students/ProfilePicture.jpg" width="100%" alt="samplepicture">
+                        <a href="/student/HardeepSingh">
+                            <h1 class="name-stu">Hardeep Singh</h1>
+                            <img src="/img/students/HardeepSingh.jpeg" width="100%" alt="samplepicture">
+                        </a>
                     </article>
                 </div>
                 <div class="studentdiv">
                     <article class="stu five">
-                        <h1 class="name-stu"><a href="/student/JorgeFabregas">Jorge Fabregas</a></h1>
-                        <img src="/img/students/jf_bn.png" width="100%" alt="samplepicture">
+                        <a href="/student/JorgeFabregas">
+                            <h1 class="name-stu">Jorge Fabregas</h1>
+                            <img src="/img/students/jf_bn.png" width="100%" alt="samplepicture">
+                        </a>
                     </article>
                 </div>
                 </article>

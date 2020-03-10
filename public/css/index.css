@@ -200,8 +200,10 @@ h1 {
 {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 0.5em;
-    height: 100vh;
+    gap: 0.5em;
+    margin: .5em;
+    text-align: center;
+    /* height: 100vh; */
 }
 .students > article
 {
@@ -215,6 +217,8 @@ h1 {
     width: 400px;
     vertical-align: middle;
     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .grad-show {
     padding: 2rem 2rem;
@@ -254,6 +258,36 @@ h1 {
     max-width: 3rem;
     padding-right: 0.5rem;
 }
+
+
+@media screen and (max-width: 1024px)
+{
+    .router { padding: 2rem  1.5rem 0.5rem 0;}
+    .router a {padding-right: 1rem;
+            font-size: 1rem;}
+    .faculty { font-size: 2rem;
+        margin: 2.5rem auto;}
+    .program-graphic { font-size: 1.50rem;}
+    .program-3d { font-size: 1.50rem;}
+    .program-web { font-size: 1.50rem;}
+    .grad-show { padding: 1.75rem ;}
+    .students{ grid-template-columns: 1fr 1fr;}
+}
+@media screen and (max-width: 550px)
+{
+    .router { padding: 1.5rem  1rem 0.5rem 0;}
+    .router a {padding-right: 0.75rem;
+            font-size: 0.55rem;}
+    .faculty { font-size: 1.75rem;
+        margin: 2.5rem auto;}
+    .program-graphic { font-size: 1.25rem;}
+    .program-3d { font-size: 1.25rem;}
+    .program-web { font-size: 1.25rem;}
+    .grad-show { padding: 1.5rem;}
+    .students{ grid-template-columns: 1fr;}
+    .stu img {height:300px;};
+}
+
 @media screen and (max-width: 320px)
 {
     .router { padding: 1rem  0.75rem 0.20rem 0;}
@@ -270,36 +304,6 @@ h1 {
     .footer img{ max-width: 1.80rem;
         padding-right: 0.25rem;}
     .copyright { font-size: 0.5rem;}
-    .students{ grid-template-columns: 1fr;}
-    .students image {height:200px; width:200px};
+    .students image {height:200px;};
 }
-@media screen and (max-width: 550px)
-{
-    .router { padding: 1.5rem  1rem 0.5rem 0;}
-    .router a {padding-right: 0.75rem;
-            font-size: 0.55rem;}
-    .faculty { font-size: 1.75rem;
-        margin: 2.5rem auto;}
-    .program-graphic { font-size: 1.25rem;}
-    .program-3d { font-size: 1.25rem;}
-    .program-web { font-size: 1.25rem;}
-    .grad-show { padding: 1.5rem;}
-    .students{ grid-template-columns: 1fr 1fr;}
-    .students image {height:300px; width:300px};
-}
-@media screen and (max-width: 960px)
-{
-    .router { padding: 2rem  1.5rem 0.5rem 0;}
-    .router a {padding-right: 1rem;
-            font-size: 1rem;}
-    .faculty { font-size: 2rem;
-        margin: 2.5rem auto;}
-    .program-graphic { font-size: 1.50rem;}
-    .program-3d { font-size: 1.50rem;}
-    .program-web { font-size: 1.50rem;}
-    .grad-show { padding: 1.75rem ;}
-    .students{ grid-template-columns: 1fr 1fr;}
-}
-
-
 
