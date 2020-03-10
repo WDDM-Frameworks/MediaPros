@@ -4,27 +4,39 @@ export default class Students extends Page{
     constructor(){
         super();
         this.html = `
-            <article class="faculty">
-                <p>Our Students</p>
-                <article class="program graphic">
-                    <h1 class="program-graphic"><a href="/student/SavinderKaur">Savinder Kaur</a></h1>
-                    <img src="/img/humber.png" width="100%" height="auto" alt="Graphic Design">
-                </article>
-                <article class="program 3d">
-                    <h1 class="program-3d"><a href="/student/ReynaldoSia">Reynaldo Sia</a></h1>
-                    <img src="/img/humber.png" width="100%" height="auto" alt="Graphic Design">
-                </article>
-                <article class="program web">
-                    <h1 class="program-web"><a href="/student/KunalDhawan">Kunal Dhawan</a></h1>
-                    <img src="/img/humber.png" width="100%" height="auto" alt="Graphic Design">
-                </article>
-                <article class="program web">
-                    <h1 class="program-web"><a href="/student/HardeepSingh">Hardeep Singh</a></h1>
-                    <img src="/img/humber.png" width="100%" height="auto" alt="Graphic Design">
-                </article>
-                <article class="program web">
-                    <h1 class="program-web"><a href="/student/JorgeFabregas">Jorge Fabregas</a></h1>
-                    <img src="/img/humber.png" width="100%" height="auto" alt="Graphic Design">
+            <article>
+                <p class="student-head">Our Students</p>
+                <article class="students">
+                <div class="studentdiv">
+                    <article class="stu one">
+                        <h1 class="name-stu"><a href="/student/SavinderKaur">Savinder Kaur</a></h1>
+                        <img src="/img/students/SK.jpg"  width="100%" alt="samplepicture">
+                    </article>
+                </div>
+                <div class="studentdiv">
+                    <article class="stu two">
+                        <h1 class="name-stu"><a href="/student/ReynaldoSia">Reynaldo Sia</a></h1>
+                        <img src="/img/students/JRSia.png"  width="100%" alt="samplepicture">
+                    </article>
+                </div>
+                <div class="studentdiv">
+                    <article class="stu three">
+                        <h1 class="name-stu"><a href="/student/KunalDhawan">Kunal Dhawan</a></h1>
+                        <img src="/img/students/KunalDhawan.jpg" width="100%" alt="samplepicture">
+                    </article>
+                </div>
+                <div class="studentdiv">
+                    <article class="stu four">
+                        <h1 class="name-stu"><a href="/student/HardeepSingh">Hardeep Singh</a></h1>
+                        <img src="/img/students/ProfilePicture.jpg" width="100%" alt="samplepicture">
+                    </article>
+                </div>
+                <div class="studentdiv">
+                    <article class="stu five">
+                        <h1 class="name-stu"><a href="/student/JorgeFabregas">Jorge Fabregas</a></h1>
+                        <img src="/img/students/jf_bn.png" width="100%" alt="samplepicture">
+                    </article>
+                </div>
                 </article>
             </article>
         `
