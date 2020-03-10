@@ -63,13 +63,13 @@ export default class JorgeFabregas extends Student{
     getProjects(){
         return `
             <div class="dataTile">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni et voluptatibus delectus numquam.</p>
+                <p>AirBnB app is the fully featured project powered by Node-Express Technology.</p>
             </div>
             <div class="dataTile">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni et voluptatibus delectus numquam.</p>
+                <p>Redesign Kayak website build with HTML, CSS and JS.</p>
             </div>
             <div class="dataTile">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni et voluptatibus delectus numquam.</p>
+                <p>Technopolis webstore build with HTML, CSS and JS.</p>
             </div>
         `
     }
